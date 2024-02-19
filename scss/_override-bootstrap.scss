@@ -1,6 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 
+$body-bg:#00AFB5;
+$font-family-base: "Roboto Mono", monospace ;
+$body-color: #fff;
+$primary: #D5F875; //color for headings
+$link-color: #fff;
+$link-hover-color: #DE3891;
+
 body{
-   background-color: #00AFB5 !important;
-   font-family: "Roboto Mono", monospace !important;
+   background-color: $body-bg;
+   font-family: $font-family-base;
+   font-size: 18px;
 }
