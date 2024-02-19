@@ -1,0 +1,60 @@
+$line-color: #DE3891;
+
+.about {
+
+    text-align: center;
+
+    .about-info {
+
+        h1 {
+            font-size: 40px;
+            color: $primary;
+            margin-bottom: 40px;
+        }
+
+        p {
+            font-size: 16px;
+            padding: 0 15px;
+        }
+    }
+
+}
+
+@media(min-width:576px) {
+
+    .about {
+
+        .about-info {
+
+            h1 {
+                font-size: 56px;
+            }
+
+            p {
+                font-size: 18px;
+            }
+        }
+
+    }
+
+
+}
+
+@media(min-width:768px) {
+
+    .about {
+
+        .about-info {
+
+            h1 {
+                font-size: 70px;
+                margin-bottom: 50px;
+            }
+        }
+
+        .about-container {
+            width: 900px;
+            height: auto;
+        }
+    }
+}
