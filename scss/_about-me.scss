@@ -15,7 +15,18 @@ $line-color: #DE3891;
         p {
             font-size: 16px;
             padding: 0 15px;
+            margin-bottom: 100px;
         }
+
+       
+    }
+
+    span{
+        display: block;
+        float: right;
+        width: 650px;
+        height: 3px;
+        background-color: $line-color;
     }
 
 }

@@ -9835,6 +9835,14 @@ header .navbar-nav .nav-item a {
 .about .about-info p {
   font-size: 16px;
   padding: 0 15px;
+  margin-bottom: 100px;
+}
+.about span {
+  display: block;
+  float: right;
+  width: 650px;
+  height: 3px;
+  background-color: #DE3891;
 }
 
 @media (min-width: 576px) {
