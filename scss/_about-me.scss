@@ -1,5 +1,24 @@
 $line-color: #DE3891;
 
+@mixin line() {
+    display: block;
+    width: 900px;
+    height: 3px;
+    background-color: $line-color;
+}
+
+@mixin h1() {
+    font-size: 40px;
+    color: $primary;
+    margin-bottom: 40px;
+}
+
+@mixin p() {
+    font-size: 16px;
+    padding: 0 15px;
+    margin-bottom: 100px;
+}
+
 .about {
 
     text-align: center;
@@ -7,26 +26,17 @@ $line-color: #DE3891;
     .about-info {
 
         h1 {
-            font-size: 40px;
-            color: $primary;
-            margin-bottom: 40px;
+            @include h1();
         }
 
         p {
-            font-size: 16px;
-            padding: 0 15px;
-            margin-bottom: 100px;
+            @include p();
         }
 
-       
-    }
-
-    span{
-        display: block;
-        float: right;
-        width: 650px;
-        height: 3px;
-        background-color: $line-color;
+        span {
+            @include line();
+            margin-bottom: 120px;
+        }
     }
 
 }

@@ -9837,12 +9837,12 @@ header .navbar-nav .nav-item a {
   padding: 0 15px;
   margin-bottom: 100px;
 }
-.about span {
+.about .about-info span {
   display: block;
-  float: right;
-  width: 650px;
+  width: 900px;
   height: 3px;
   background-color: #DE3891;
+  margin-bottom: 120px;
 }
 
 @media (min-width: 576px) {
@@ -9861,5 +9861,79 @@ header .navbar-nav .nav-item a {
   .about .about-container {
     width: 900px;
     height: auto;
+  }
+}
+.projects {
+  text-align: center;
+  padding-bottom: 70px;
+}
+.projects h1, .projects .h1 {
+  font-size: 40px;
+  color: #D5F875;
+  margin-bottom: 40px;
+}
+.projects p {
+  font-size: 16px;
+  padding: 0 15px;
+  margin-bottom: 100px;
+}
+.projects .images img {
+  border: 3px solid #D5F875;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  bottom: 0;
+  transition: 0.15s linear;
+  position: relative;
+}
+.projects .images img:hover {
+  box-shadow: -7px 5px 35px 5px #DE3891;
+  border: 3px solid #DE3891;
+  bottom: 20px;
+}
+.projects .button {
+  background-color: #DE3891;
+  border-radius: 10px;
+  padding: 10px 25px;
+  box-shadow: -3px 4px 13px #D5F875;
+  margin-bottom: 50px;
+}
+.projects .button:hover {
+  box-shadow: -5px 5px 13px #DE3891;
+  background-color: #D5F875;
+  color: #00AFB5;
+}
+.projects span {
+  display: block;
+  text-align: center;
+  width: 1300px;
+  height: 3px;
+  background-color: #DE3891;
+}
+
+@media (min-width: 576px) {
+  .projects h1, .projects .h1 {
+    font-size: 56px;
+  }
+  .projects p {
+    font-size: 18px;
+  }
+}
+@media (min-width: 992px) {
+  .projects h1, .projects .h1 {
+    font-size: 70px;
+    margin-bottom: 50px;
+  }
+  .projects p {
+    margin-bottom: 100px;
+  }
+  .projects .images img {
+    margin-bottom: 30px;
+  }
+  .projects span {
+    display: block;
+    text-align: center;
+    width: 1300px;
+    height: 3px;
+    background-color: #DE3891;
   }
 }/*# sourceMappingURL=style.css.map */
