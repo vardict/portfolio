@@ -6,6 +6,7 @@
 
     h1 {
         @include h1();
+        padding-top: 120px;
     }
 
     p {
@@ -36,9 +37,8 @@
         border-radius: 10px;
         padding: 10px 25px;
         box-shadow: -3px 4px 13px $primary;
-        margin-bottom: 50px;
-
-
+        margin-bottom: 120px;
+        
         &:hover {
             box-shadow: -5px 5px 13px $link-hover-color;
             background-color: $primary;
@@ -47,11 +47,7 @@
     }
 
     span {
-        display: block;
-        text-align: center;
-        width: 1300px;
-        height: 3px;
-        background-color: $line-color;
+        @include line();
     }
 }
 
@@ -91,12 +87,12 @@
             }
         }
 
-        span {
-            display: block;
-            text-align: center;
-            width: 1300px;
-            height: 3px;
-            background-color: $line-color;
-        }
+        // span {
+        //     display: block;
+        //     text-align: center;
+        //     width: 1300px;
+        //     height: 3px;
+        //     background-color: $line-color;
+        // }
     }
 }

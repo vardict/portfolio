@@ -9835,13 +9835,14 @@ header .navbar-nav .nav-item a {
 .about .about-info p {
   font-size: 16px;
   padding: 0 15px;
-  margin-bottom: 100px;
+  margin-bottom: 120px;
 }
 .about .about-info span {
-  display: block;
-  width: 900px;
+  position: absolute;
+  width: 1100px;
   height: 3px;
   background-color: #DE3891;
+  float: right;
   margin-bottom: 120px;
 }
 
@@ -9871,11 +9872,12 @@ header .navbar-nav .nav-item a {
   font-size: 40px;
   color: #D5F875;
   margin-bottom: 40px;
+  padding-top: 120px;
 }
 .projects p {
   font-size: 16px;
   padding: 0 15px;
-  margin-bottom: 100px;
+  margin-bottom: 120px;
 }
 .projects .images img {
   border: 3px solid #D5F875;
@@ -9895,7 +9897,7 @@ header .navbar-nav .nav-item a {
   border-radius: 10px;
   padding: 10px 25px;
   box-shadow: -3px 4px 13px #D5F875;
-  margin-bottom: 50px;
+  margin-bottom: 120px;
 }
 .projects .button:hover {
   box-shadow: -5px 5px 13px #DE3891;
@@ -9903,11 +9905,11 @@ header .navbar-nav .nav-item a {
   color: #00AFB5;
 }
 .projects span {
-  display: block;
-  text-align: center;
-  width: 1300px;
+  position: absolute;
+  width: 1100px;
   height: 3px;
   background-color: #DE3891;
+  float: right;
 }
 
 @media (min-width: 576px) {
@@ -9929,11 +9931,50 @@ header .navbar-nav .nav-item a {
   .projects .images img {
     margin-bottom: 30px;
   }
-  .projects span {
-    display: block;
-    text-align: center;
-    width: 1300px;
-    height: 3px;
-    background-color: #DE3891;
+}
+.contact {
+  text-align: center;
+  margin-bottom: 70px;
+}
+.contact h1, .contact .h1 {
+  font-size: 40px;
+  color: #D5F875;
+  margin-bottom: 40px;
+  padding-top: 100px;
+}
+.contact p {
+  font-size: 16px;
+  padding: 0 15px;
+  margin-bottom: 120px;
+  margin-bottom: 20px;
+}
+.contact p:last-child {
+  margin-bottom: 120px;
+}
+.contact p a {
+  text-decoration: none;
+}
+.contact span {
+  position: absolute;
+  width: 1100px;
+  height: 3px;
+  background-color: #DE3891;
+  float: right;
+}
+
+@media (min-width: 576px) {
+  .contact h1, .contact .h1 {
+    font-size: 56px;
+  }
+  .contact p {
+    font-size: 18px;
+  }
+}
+@media (min-width: 768px) {
+  .contact h1, .contact .h1 {
+    font-size: 70px;
+  }
+  .contact p {
+    margin-bottom: 25px;
   }
 }/*# sourceMappingURL=style.css.map */
