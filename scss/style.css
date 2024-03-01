@@ -6,6 +6,10 @@ body {
   font-size: 18px;
 }
 
+img {
+  max-width: 100%;
+}
+
 /*!
  * Bootstrap v5.0.2 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
@@ -9824,44 +9828,126 @@ header .navbar-nav .nav-item a {
     margin-bottom: 120px;
   }
 }
-.about {
-  text-align: center;
+.about .about-info {
+  padding: 0px 10px;
 }
 .about .about-info h1, .about .about-info .h1 {
   font-size: 40px;
   color: #D5F875;
   margin-bottom: 40px;
+  background-color: #DE3891;
+  padding: 10px;
+  margin-bottom: 30px;
+  width: 220px;
 }
 .about .about-info p {
   font-size: 16px;
-  padding: 0 15px;
-  margin-bottom: 120px;
+  margin-bottom: 50px;
 }
-.about .about-info span {
-  position: absolute;
-  width: 1100px;
-  height: 3px;
+.about .about-info .about-text {
+  margin-bottom: 50px;
+  border-bottom: 3px solid #D5F875;
+  padding: 12px 0;
+  width: 270px;
+}
+.about .skills {
+  border: 3px solid #D5F875;
+  border-radius: 10px;
+  box-shadow: -5px 5px 13px #D5F875;
+  padding: 20px;
+  margin-bottom: 50px;
+}
+.about .skills h1, .about .skills .h1 {
+  font-size: 40px;
+  color: #D5F875;
+  margin-bottom: 40px;
   background-color: #DE3891;
-  float: right;
-  margin-bottom: 120px;
+  padding: 10px;
+  width: 160px;
+}
+.about .skills li {
+  list-style: circle;
+  font-size: 16px;
+}
+.about .skills li:hover {
+  color: #DE3891;
 }
 
 @media (min-width: 576px) {
   .about .about-info h1, .about .about-info .h1 {
     font-size: 56px;
+    width: 290px;
   }
   .about .about-info p {
+    font-size: 18px;
+  }
+  .about .about-info .about-text {
+    width: 290px;
+  }
+  .about .skills h1, .about .skills .h1 {
+    font-size: 40px;
+    color: #D5F875;
+    margin-bottom: 40px;
+    background-color: #DE3891;
+    padding: 10px;
+    font-size: 56px;
+    width: 220px;
+  }
+  .about .skills li {
     font-size: 18px;
   }
 }
 @media (min-width: 768px) {
   .about .about-info h1, .about .about-info .h1 {
     font-size: 70px;
-    margin-bottom: 50px;
+    width: 360px;
   }
-  .about .about-container {
-    width: 900px;
-    height: auto;
+  .about .about-info p {
+    margin-bottom: 90px;
+  }
+  .about .skills h1, .about .skills .h1 {
+    font-size: 40px;
+    color: #D5F875;
+    margin-bottom: 40px;
+    background-color: #DE3891;
+    padding: 10px;
+    font-size: 70px;
+    width: 280px;
+  }
+}
+@media (min-width: 992px) {
+  .about .skills {
+    margin-top: 70px;
+  }
+  .about .skills h1, .about .skills .h1 {
+    font-size: 40px;
+    color: #D5F875;
+    margin-bottom: 40px;
+    background-color: #DE3891;
+    padding: 10px;
+    font-size: 56px;
+    width: 220px;
+  }
+  .about .skills li {
+    font-size: 16px;
+  }
+}
+@media (min-width: 1200px) {
+  .about .skills {
+    margin-top: 60px;
+    padding: 20px 30px;
+  }
+  .about .skills h1, .about .skills .h1 {
+    font-size: 40px;
+    color: #D5F875;
+    margin-bottom: 40px;
+    background-color: #DE3891;
+    padding: 10px;
+    font-size: 70px;
+    width: 280px;
+  }
+  .about .skills li {
+    font-size: 18px;
   }
 }
 .projects {
@@ -9872,12 +9958,13 @@ header .navbar-nav .nav-item a {
   font-size: 40px;
   color: #D5F875;
   margin-bottom: 40px;
+  background-color: #DE3891;
+  padding: 10px;
   padding-top: 120px;
 }
 .projects p {
   font-size: 16px;
-  padding: 0 15px;
-  margin-bottom: 120px;
+  margin-bottom: 50px;
 }
 .projects .images img {
   border: 3px solid #D5F875;
@@ -9903,13 +9990,6 @@ header .navbar-nav .nav-item a {
   box-shadow: -5px 5px 13px #DE3891;
   background-color: #D5F875;
   color: #00AFB5;
-}
-.projects span {
-  position: absolute;
-  width: 1100px;
-  height: 3px;
-  background-color: #DE3891;
-  float: right;
 }
 
 @media (min-width: 576px) {
@@ -9940,12 +10020,13 @@ header .navbar-nav .nav-item a {
   font-size: 40px;
   color: #D5F875;
   margin-bottom: 40px;
+  background-color: #DE3891;
+  padding: 10px;
   padding-top: 100px;
 }
 .contact p {
   font-size: 16px;
-  padding: 0 15px;
-  margin-bottom: 120px;
+  margin-bottom: 50px;
   margin-bottom: 20px;
 }
 .contact p:last-child {
@@ -9953,13 +10034,6 @@ header .navbar-nav .nav-item a {
 }
 .contact p a {
   text-decoration: none;
-}
-.contact span {
-  position: absolute;
-  width: 1100px;
-  height: 3px;
-  background-color: #DE3891;
-  float: right;
 }
 
 @media (min-width: 576px) {

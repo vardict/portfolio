@@ -1,0 +1,12 @@
+@mixin h1() {
+    font-size: 40px;
+    color: $primary;
+    margin-bottom: 40px;
+    background-color: $link-hover-color;
+    padding: 10px;
+}
+
+@mixin p() {
+    font-size: 16px;
+    margin-bottom: 50px;
+}

@@ -19,9 +19,7 @@
         }
     }
 
-    span{
-        @include line();
-    }
+   
 }
 
 @media(min-width:576px){
