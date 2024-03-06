@@ -9828,6 +9828,9 @@ header .navbar-nav .nav-item a {
     margin-bottom: 120px;
   }
 }
+.about {
+  margin-bottom: 30px;
+}
 .about .about-info {
   padding: 0px 10px;
 }
@@ -9916,6 +9919,9 @@ header .navbar-nav .nav-item a {
   }
 }
 @media (min-width: 992px) {
+  .about {
+    margin-bottom: 70px;
+  }
   .about .skills {
     margin-top: 70px;
   }
@@ -9960,19 +9966,24 @@ header .navbar-nav .nav-item a {
   margin-bottom: 40px;
   background-color: #DE3891;
   padding: 10px;
-  padding-top: 120px;
+  width: 220px;
+  margin: auto;
+  margin-bottom: 30px;
 }
 .projects p {
   font-size: 16px;
   margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 .projects .images img {
   border: 3px solid #D5F875;
   border-radius: 20px;
-  margin-bottom: 10px;
+  margin-bottom: 25px;
   bottom: 0;
   transition: 0.15s linear;
   position: relative;
+  width: 90%;
+  height: 280px;
 }
 .projects .images img:hover {
   box-shadow: -7px 5px 35px 5px #DE3891;
@@ -9984,7 +9995,7 @@ header .navbar-nav .nav-item a {
   border-radius: 10px;
   padding: 10px 25px;
   box-shadow: -3px 4px 13px #D5F875;
-  margin-bottom: 120px;
+  margin-bottom: 70px;
 }
 .projects .button:hover {
   box-shadow: -5px 5px 13px #DE3891;
@@ -9995,6 +10006,7 @@ header .navbar-nav .nav-item a {
 @media (min-width: 576px) {
   .projects h1, .projects .h1 {
     font-size: 56px;
+    width: 290px;
   }
   .projects p {
     font-size: 18px;
@@ -10004,12 +10016,12 @@ header .navbar-nav .nav-item a {
   .projects h1, .projects .h1 {
     font-size: 70px;
     margin-bottom: 50px;
+    width: 370px;
   }
   .projects p {
-    margin-bottom: 100px;
-  }
-  .projects .images img {
-    margin-bottom: 30px;
+    margin: auto;
+    margin-bottom: 50px;
+    width: 900px;
   }
 }
 .contact {

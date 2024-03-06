@@ -1,16 +1,19 @@
 .projects {
 
     text-align: center;
-   padding-bottom: 70px; 
-   
+    padding-bottom: 70px;
+
 
     h1 {
         @include h1();
-        padding-top: 120px;
+        width: 220px;
+        margin: auto;
+        margin-bottom: 30px
     }
 
     p {
         @include p();
+        margin-bottom: 30px;
     }
 
     .images {
@@ -18,10 +21,12 @@
         img {
             border: 3px solid $primary;
             border-radius: 20px;
-            margin-bottom: 10px;
+            margin-bottom: 25px;
             bottom: 0;
             transition: 0.15s linear;
             position: relative;
+            width: 90%;
+            height: 280px;
 
             &:hover {
                 box-shadow: -7px 5px 35px 5px $link-hover-color;
@@ -32,13 +37,15 @@
         }
     }
 
+
+
     .button {
         background-color: $link-hover-color;
         border-radius: 10px;
         padding: 10px 25px;
         box-shadow: -3px 4px 13px $primary;
-        margin-bottom: 120px;
-        
+        margin-bottom: 70px;
+
         &:hover {
             box-shadow: -5px 5px 13px $link-hover-color;
             background-color: $primary;
@@ -55,13 +62,12 @@
 
         h1 {
             font-size: 56px;
-
+            width: 290px;
         }
 
         p {
             font-size: 18px;
         }
-
 
     }
 }
@@ -72,25 +78,14 @@
         h1 {
             font-size: 70px;
             margin-bottom: 50px;
+            width: 370px;
         }
 
         p {
-            margin-bottom: 100px;
+            margin: auto;
+            margin-bottom: 50px;
+            width: 900px;
         }
 
-        .images {
-
-            img {
-                margin-bottom: 30px;
-            }
-        }
-
-        // span {
-        //     display: block;
-        //     text-align: center;
-        //     width: 1300px;
-        //     height: 3px;
-        //     background-color: $line-color;
-        // }
     }
 }
