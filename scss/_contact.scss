@@ -1,50 +1,95 @@
-.contact{
+.contact {
     text-align: center;
     margin-bottom: 70px;
 
-    h1{
+    h1 {
         @include h1();
-        padding-top: 100px;
+        margin: auto;
+        width: 200px;
+        margin-bottom: 30px;
     }
-    p{
+
+    p {
         @include p();
         margin-bottom: 20px;
-        &:last-child{
-            margin-bottom: 120px;
-        }
-          
 
-        a{
+        &:last-child {
+            margin-bottom: 50px;
+        }
+
+        a {
             text-decoration: none;
         }
     }
 
-   
+    .contact-text {
+        padding-bottom: 10px;
+        border-bottom: 3px solid $primary;
+        margin-bottom: 20px;
+    }
+
 }
 
-@media(min-width:576px){
+@media(min-width:576px) {
 
-    .contact{
-    
-        h1{
-           font-size: 56px;
+    .contact {
+
+        h1 {
+            font-size: 56px;
+            width: 260px;
         }
-        p{
-            font-size: 18px;            
+
+        p {
+            font-size: 18px;
+        }
+
+        .contact-text {
+            width: 400px;
+            margin: auto;
+            margin-bottom: 20px;
         }
     }
 
 }
 
-@media(min-width:768px){
+@media(min-width:768px) {
 
-    .contact{
-    
-        h1{
-           font-size: 70px;
+    .contact {
+
+        h1 {
+            font-size: 70px;
+            width: 320px;
+            margin-bottom: 70px;
         }
-        p{
+
+        p {
+            font-size: 20px;
             margin-bottom: 25px;
+        }
+
+        .contact-text {
+            width: 500px;
+            margin: auto;
+            margin-bottom: 20px;
+        }
+    }
+
+}
+
+@media(min-width:992px) {
+
+    .contact {
+
+        p {
+            &:last-child {
+                margin-bottom: 90px;
+            }
+        }
+
+        .contact-text {
+            width: 620px;
+            margin: auto;
+            margin-bottom: 20px;
         }
     }
 
