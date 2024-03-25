@@ -8,7 +8,7 @@
         @include h1();
         width: 220px;
         margin: auto;
-        margin-bottom: 30px
+        margin-bottom: 30px;    
     }
 
     p {
@@ -45,6 +45,7 @@
         padding: 10px 25px;
         box-shadow: -3px 4px 13px $primary;
         margin-bottom: 70px;
+        font-size: 18px;
 
         &:hover {
             box-shadow: -5px 5px 13px $link-hover-color;
@@ -85,6 +86,7 @@
             font-size: 70px;
             margin-bottom: 50px;
             width: 370px;
+            
         }
 
         p {

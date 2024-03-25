@@ -21,6 +21,26 @@ header {
                 margin-bottom: 0px;
             }
         }
+
+        .navbar-nav{
+            .dropdown-menu{
+                background-color: $link-hover-color;
+                box-shadow: -5px 5px 13px $primary;
+                border: 2px solid $primary;
+                border-radius: 10px;
+
+                a{
+                    color: #fff;
+                    margin: 0;
+                    &:hover{
+                        color: $primary;
+                        background-color: transparent;
+                    }
+                }
+            }
+        
+        }
+
     }
 
     .navbar-nav .nav-item a {

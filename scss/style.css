@@ -9814,6 +9814,20 @@ header .navbar .navbar-toggler span {
 header .navbar .navbar-toggler span:last-of-type {
   margin-bottom: 0px;
 }
+header .navbar .navbar-nav .dropdown-menu {
+  background-color: #DE3891;
+  box-shadow: -5px 5px 13px #D5F875;
+  border: 2px solid #D5F875;
+  border-radius: 10px;
+}
+header .navbar .navbar-nav .dropdown-menu a {
+  color: #fff;
+  margin: 0;
+}
+header .navbar .navbar-nav .dropdown-menu a:hover {
+  color: #D5F875;
+  background-color: transparent;
+}
 header .navbar-nav .nav-item a {
   margin-left: 20px;
 }
@@ -9996,6 +10010,7 @@ header .navbar-nav .nav-item a {
   padding: 10px 25px;
   box-shadow: -3px 4px 13px #D5F875;
   margin-bottom: 70px;
+  font-size: 18px;
 }
 .projects .button:hover {
   box-shadow: -5px 5px 13px #DE3891;
@@ -10102,4 +10117,123 @@ header .navbar-nav .nav-item a {
 }
 footer {
   margin-bottom: 30px;
+}
+
+.info {
+  text-align: center;
+}
+.info h1, .info .h1 {
+  font-size: 40px;
+  color: #D5F875;
+  margin-bottom: 40px;
+  background-color: #DE3891;
+  padding: 10px;
+}
+.info p {
+  font-size: 16px;
+  margin-bottom: 50px;
+}
+.info .button {
+  background-color: #DE3891;
+  border-radius: 10px;
+  padding: 10px 25px;
+  box-shadow: -3px 4px 13px #D5F875;
+  margin-bottom: 70px;
+  font-size: 18px;
+}
+.info .button:hover {
+  box-shadow: -5px 5px 13px #DE3891;
+  background-color: #D5F875;
+  color: #00AFB5;
+}
+
+.pictures {
+  margin-bottom: 100px;
+}
+.pictures h1, .pictures .h1 {
+  font-size: 40px;
+  color: #D5F875;
+  margin-bottom: 40px;
+  background-color: #DE3891;
+  padding: 10px;
+  text-align: center;
+  width: 220px;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+.code {
+  margin-bottom: 100px;
+}
+.code h1, .code .h1 {
+  font-size: 40px;
+  color: #D5F875;
+  margin-bottom: 40px;
+  background-color: #DE3891;
+  padding: 10px;
+  text-align: center;
+  margin: auto;
+  width: 120px;
+  margin-bottom: 30px;
+}
+.code .code-img img {
+  height: 570px;
+  width: auto;
+  border: 3px solid #DE3891;
+  border-radius: 20px;
+}
+.code .code-img img:hover {
+  border: 3px solid #D5F875;
+}
+
+@media (min-width: 576px) {
+  .info h1, .info .h1 {
+    font-size: 40px;
+    color: #D5F875;
+    margin-bottom: 40px;
+    background-color: #DE3891;
+    padding: 10px;
+    width: 480px;
+    margin: auto;
+    margin-bottom: 40px;
+  }
+  .info p {
+    font-size: 16px;
+    margin-bottom: 50px;
+    font-size: 18px;
+  }
+}
+@media (min-width: 992px) {
+  .info h1, .info .h1 {
+    font-size: 40px;
+    color: #D5F875;
+    margin-bottom: 40px;
+    background-color: #DE3891;
+    padding: 10px;
+    font-size: 67px;
+    width: 800px;
+    margin: auto;
+    margin-bottom: 40px;
+  }
+  .info p {
+    width: 700px;
+    margin: auto;
+    margin-bottom: 50px;
+  }
+  .info .button {
+    margin-bottom: 140px;
+  }
+  .pictures h1, .pictures .h1 {
+    font-size: 67px;
+    width: 360px;
+    margin-bottom: 60px;
+  }
+  .pictures .carousel-inner {
+    margin-bottom: 150px;
+  }
+  .code h1, .code .h1 {
+    font-size: 67px;
+    width: 220px;
+    margin-bottom: 70px;
+  }
 }/*# sourceMappingURL=style.css.map */
